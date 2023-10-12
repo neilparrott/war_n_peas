@@ -1,11 +1,15 @@
 function main() {
 
 const countries = [
-    "Afghanistan","Argentina","Australia","Barbados","Bolivia","Brazil","Canada","Chile",
-    "China","Colombia","Cuba","Denmark","Ecuador","Estonia","Fiji","Finland","France",
-    "Germany","Greece","India","Indonesia","Ireland","Italy","Kenya",
-    "Monaco","Nigeria","Norway","Papua-New-Guinea","Paraguay","Peru","Poland",
-    "Russia","Singapore","South-Africa","Spain","Sweden","Torres-Strait-Islanders","UK"
+    "Afghanistan","Algeria","Argentina","Australia","Bangladesh",
+    "Barbados","Bolivia","Brazil","Canada","Chile",
+    "China","Colombia","Cuba","Denmark","Ecuador","Estonia",
+    "Ethiopia","Fiji","Finland","France","Germany","Greece","India","Indonesia",
+    "Iran","Iraq","Ireland","Italy","Japan","Kenya","Mexico","Monaco","Myanmar",
+    "Nigeria","Norway","Pakistan","Papua-New-Guinea","Paraguay","Peru",
+    "Philippines","Poland","Russia","Singapore","South-Africa","South-Korea",
+    "Spain","Sudan","Sweden","Tanzania","Thailand","Torres-Strait-Islanders",
+    "Uganda","UK","Vietnam" 
 ]; 
 var score = 0;
 function getUniqueRandomNumbers(min, max, count) {
@@ -86,7 +90,7 @@ function check_answer(image_source,chosen_country,score) {
     ctx2.clearRect(x, y, canvas2.width, canvas2.height);
     ctx3.clearRect(x, y, canvas3.width, canvas3.height);
     flags_to_show = getUniqueRandomNumbers(0,countries.length-1,4);
-    console.log("got to reload_images")
+   
     choose_country.textContent=countries[flags_to_show[Math.floor(Math.random() * 3)]];
     chosen_country=choose_country.textContent;
     img.src = "images/" + countries[flags_to_show[0]] + "@3x.png"; 
