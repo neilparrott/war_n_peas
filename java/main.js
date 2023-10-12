@@ -1,10 +1,11 @@
 function main() {
 
 const countries = [
-    "Argentina","Australia","Brazil","China","France","Germany","India","Indonesia",
-    "Monaco","Nigeria","Norway","Singapore","Spain","Sweden","Russia",
-    "Poland","Papua-New-Guinea","Italy","Ireland","Germany","Fiji","Estonia",
-    "Paraguay","Peru","Barbados","Chile","colombia","Torres-Strait-Islanders"
+    "Afghanistan","Argentina","Australia","Barbados","Bolivia","Brazil","Canada","Chile",
+    "China","Colombia","Cuba","Denmark","Ecuador","Estonia","Fiji","Finland","France",
+    "Germany","Greece","India","Indonesia","Ireland","Italy","Kenya",
+    "Monaco","Nigeria","Norway","Papua-New-Guinea","Paraguay","Peru","Poland",
+    "Russia","Singapore","South-Africa","Spain","Sweden","Torres-Strait-Islanders","UK"
 ]; 
 var score = 0;
 function getUniqueRandomNumbers(min, max, count) {
