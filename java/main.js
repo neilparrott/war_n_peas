@@ -81,6 +81,9 @@ function check_answer(image_source,chosen_country,score) {
     return  0 ; 
   }
   function reload_images() {
+    ctx.clearRect(x, y, canvas1.width, canvas1.height);
+    ctx2.clearRect(x, y, canvas2.width, canvas2.height);
+    ctx3.clearRect(x, y, canvas3.width, canvas3.height);
     flags_to_show = getUniqueRandomNumbers(0,countries.length-1,4);
     console.log("got to reload_images")
     choose_country.textContent=countries[flags_to_show[Math.floor(Math.random() * 3)]];
