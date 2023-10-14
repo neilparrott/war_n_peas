@@ -3,22 +3,29 @@ body {
   align-content: center;
 }
 .canvi {
-  display: inline;
+  display: inline-block;
   cursor: pointer;
   padding: 0px;
   margin: 0px;
+  object-fit:fill;
 }
 .div-container {
   align-content: center;
   padding-left: 450px;
-  margin: 20px;
+  margin: 0px;
+  display:inline-flex;
 }
 .canvi:hover {
   border-radius: 40px;
-  border: black; 
+  border: rgb(116, 137, 202) ;
 }
-#title1,#selectedCountry,#score {
+#title1,#selectedCountry {
   margin: 0px 0px 0px 0px;
   font-size: x-large;
-  display: inline;
+  display: inline-flex;
+}
+#score,.score {
+  margin: 0px 0px 0px 0px;
+  font-size: x-large;
+  display: inline-flex;
 }
