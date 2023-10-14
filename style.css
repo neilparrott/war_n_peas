@@ -21,11 +21,11 @@ body {
 }
 #title1,#selectedCountry {
   margin: 0px 0px 0px 0px;
-  font-size: x-large;
+  font-size: xx-large;
   display: inline-flex;
 }
 #score,.score {
   margin: 0px 0px 0px 0px;
-  font-size: x-large;
+  font-size: xx-large;
   display: inline-flex;
 }
