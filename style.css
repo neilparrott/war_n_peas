@@ -1,23 +1,17 @@
 body {
   background-color: rgb(116, 137, 202);
   align-content: center;
+  height: 2000px;
 }
-.canvi {
-  display: inline-block;
-  cursor: pointer;
-  padding: 0px;
-  margin: 0px;
-  object-fit:fill;
+.header {
+  position:fixed;
+  top:10px;
 }
 .div-container {
-  align-content: center;
-  padding-left: 450px;
-  margin: 0px;
-  display:inline-flex;
-}
-.canvi:hover {
-  border-radius: 40px;
-  border: rgb(116, 137, 202) ;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  margin-left: 300px;
+  row-gap: 20px;
 }
 #title1,#selectedCountry {
   margin: 0px 0px 0px 0px;
