@@ -13,6 +13,10 @@ body {
   margin-left: 300px;
   row-gap: 20px;
 }
+.canvi:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 #title1,#selectedCountry {
   margin: 0px 0px 0px 0px;
   font-size: xx-large;
