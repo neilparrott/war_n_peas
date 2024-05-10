@@ -6,8 +6,11 @@ body {
 .header {
   position:fixed;
   top:10px;
+  font-size: 5px;
 }
 .div-container {
+  position:fixed;
+  top: 130px;
   display: grid;
   grid-template-rows: 300px 300px 300px;
   margin-left: 300px;
@@ -19,11 +22,11 @@ body {
 }
 #title1,#selectedCountry {
   margin: 0px 0px 0px 0px;
-  font-size: xx-large;
+  font-size: 60px;
   display: inline-flex;
 }
 #score,.score {
   margin: 0px 0px 0px 0px;
-  font-size: xx-large;
+  font-size: 60px;
   display: inline-flex;
 }
