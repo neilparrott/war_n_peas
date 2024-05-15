@@ -1,20 +1,23 @@
 body {
-  background-color: rgb(116, 137, 202);
+  background-color: rgb(182, 189, 212);
   align-content: center;
-  height: 2000px;
+  height: 800px;
 }
 .header {
+  display: inline-block;
   position:fixed;
   top:10px;
   font-size: 5px;
+  height: 50px;
 }
 .div-container {
-  position:fixed;
-  top: 130px;
-  display: grid;
-  grid-template-rows: 300px 300px 300px;
-  margin-left: 300px;
+  position:flex;
+  /*top: 80px;*/
+  display: inline-block;
+  grid-template-rows: 80px 300px 300px;
+  margin-left: 200px;
   row-gap: 20px;
+  padding-top: 50px;
 }
 .canvi:hover {
   cursor: pointer;
@@ -22,11 +25,11 @@ body {
 }
 #title1,#selectedCountry {
   margin: 0px 0px 0px 0px;
-  font-size: 60px;
-  display: inline-flex;
+  font-size: 40px;
+  display: inline-block;
 }
 #score,.score {
   margin: 0px 0px 0px 0px;
-  font-size: 60px;
-  display: inline-flex;
+  font-size: 50px;
+  display: inline-block;
 }
